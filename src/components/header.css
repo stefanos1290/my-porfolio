@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.headerContainer {
+  display: flex;
+}
+.logo {
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.linksContainer {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.start {
+  font-size: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+.projects {
+  font-size: 20px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+.about {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.contact {
+  font-size: 20px;
+}
