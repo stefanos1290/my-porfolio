@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.work-container {
+  background-color: #100f18;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.number1 {
+  position: absolute;
+  color: #581adf;
+  left: 101%;
+  top: -10px;
+  font-size: 20px;
+}
+.tetris {
+  border: 1px solid #581adf;
+  height: 300px;
+  margin: 50px;
+  position: relative;
+  z-index: 3;
+  top: 40px;
+}
+.tetris-line {
+  background-color: #581adf;
+  height: 2px;
+  border: none;
+  width: 33%;
+  left: 618px;
+  position: relative;
+  top: -258px;
+}
+.playTetrisButtom {
+  position: relative;
+  top: -238px;
+  left: 10px;
+  z-index: 2;
+}
+.viewTetrisButton {
+  position: relative;
+  top: -238px;
+  left: 50px;
+  z-index: 2;
+}
+.social-network-container {
+  align-self: flex-end;
+  height: 338px;
+  margin-bottom: 50px;
+  position: relative;
+  top: -100px;
+}
+.social-network {
+  border: 1px solid #581adf;
+  width: 600px;
+}
+.social-network-line {
+  border-left: 2px solid #581adf;
+  position: relative;
+  top: -12px;
+  height: 100%;
+  right: -70%;
+}
+.View-Social-Network-Button {
+  position: absolute;
+  right: 22%;
+  top: 63px;
+  z-index: 4;
+}
+.number2 {
+  color: #581adf;
+  position: absolute;
+  font-size: 20px;
+  top: 815%;
+}
+.image-board-container {
+  height: 407px;
+  width: 602px;
+  margin-bottom: 30px;
+  margin-left: 48px;
+  position: relative;
+  top: -60px;
+}
+.image-board-line {
+  border-left: 2px solid #581adf;
+  position: relative;
+  height: 80%;
+  left: 20%;
+  bottom: 190%;
+}
+.image-board {
+  border: 1px solid #581adf;
+  width: 600px;
+  border-left: 2px solid #581adf;
+  position: relative;
+}
+.View-image-board-Button {
+  position: absolute;
+  top: -490px;
+  z-index: 8;
+  left: 10%;
+}
+.number3 {
+  position: absolute;
+  top: -276px;
+  color: #581adf;
+  font-size: 20px;
+}
+.links {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 961px) {
+  .work-container {
+    background-color: #100f18;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  .number1 {
+    position: absolute;
+    color: #581adf;
+    left: 101%;
+    top: -10px;
+    font-size: 20px;
+    display: none;
+  }
+  .tetris {
+    border: 1px solid #581adf;
+    height: 300px;
+    position: relative;
+    z-index: 3;
+    margin: 0;
+  }
+  .tetris-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tetris-line {
+    background-color: #581adf;
+    height: 2px;
+    border: none;
+    width: 33%;
+    left: 618px;
+    position: relative;
+    top: -300px;
+    display: none;
+  }
+  .playTetrisButtom {
+    top: -42px;
+    left: -220px;
+    z-index: 32;
+    position: absolute;
+  }
+  .viewTetrisButton {
+    z-index: 32;
+    position: absolute;
+    top: -78px;
+    left: 220px;
+  }
+  .social-network-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    align-self: center;
+    margin-bottom: 50px;
+  }
+  .social-network {
+    border: 1px solid #581adf;
+    width: 600px;
+  }
+  .social-network-line {
+    border-left: 2px solid #581adf;
+    position: relative;
+    top: -12px;
+    height: 100%;
+    right: -70%;
+    display: none;
+  }
+  .View-Social-Network-Button {
+    position: absolute;
+    right: -236px;
+    top: -43px;
+    z-index: 4;
+  }
+  .number2 {
+    color: #581adf;
+    position: absolute;
+    font-size: 20px;
+    top: 630%;
+    display: none;
+  }
+  .image-board-container {
+    height: 407px;
+    width: 602px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+  }
+  .image-board-line {
+    border-left: 2px solid #581adf;
+    position: relative;
+    height: 80%;
+    left: 10%;
+    bottom: 190%;
+    display: none;
+  }
+  .image-board {
+    border: 1px solid #581adf;
+    width: 600px;
+    border-left: 2px solid #581adf;
+    position: relative;
+  }
+  .View-image-board-Button {
+    position: absolute;
+    top: -43px;
+    right: -235px;
+    z-index: 38;
+  }
+  .number3 {
+    position: absolute;
+    top: -210px;
+    color: #581adf;
+    font-size: 20px;
+    display: none;
+  }
+  .links {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .tetris-container {
+    width: 94%;
+  }
+  .tetris {
+    width: 94%;
+  }
+  .playTetrisButtom {
+    top: -42px;
+    left: -80px;
+    z-index: 32;
+    position: absolute;
+  }
+  .viewTetrisButton {
+    z-index: 32;
+    position: absolute;
+    top: -78px;
+    left: 80px;
+  }
+  .social-network-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    align-self: center;
+    margin-bottom: 50px;
+    width: 94%;
+  }
+  .social-network {
+    border: 1px solid #581adf;
+    width: 600px;
+    width: 94%;
+  }
+  .View-Social-Network-Button {
+    position: absolute;
+    top: -58px;
+    left: 80px;
+    z-index: 4;
+  }
+  .image-board-container {
+    height: 407px;
+    width: 602px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    width: 94%;
+  }
+  .image-board {
+    border: 1px solid #581adf;
+    width: 600px;
+    border-left: 2px solid #581adf;
+    position: relative;
+    width: 94%;
+  }
+  .View-image-board-Button {
+    position: absolute;
+    top: -48px;
+    left: 80px;
+    z-index: 38;
+  }
+}
+.mainContainer {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  top: -242px;
+  right: -52%;
+}
+.theCard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+.theCard:hover {
+  transform: rotateY(180deg);
+}
+.theFront {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  backface-visibility: hidden;
+  background: #100f18;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #581adf;
+}
+.theBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: cornflowerblue;
+  transform: rotateY(180deg);
+}
+
+.mainContainer1 {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  top: -1077px;
+  right: 1%;
+}
+.theCard1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+.theCard1:hover {
+  transform: rotateY(180deg);
+}
+.theFront1 {
+  position: absolute;
+  width: 100%;
+  height: 30%;
+  backface-visibility: hidden;
+  background: #100f18;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #581adf;
+}
+.theBack1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: cornflowerblue;
+  transform: rotateY(180deg);
+}
+
+.mainContainer2 {
+  position: relative;
+  width: 250px;
+  height: 165px;
+  top: -191px;
+  left: 690px;
+}
+.theCard2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+.theCard2:hover {
+  transform: rotateY(180deg);
+}
+.theFront2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #100f18;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #581adf;
+  border: 1px solid #581adf;
+}
+.theBack2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: cornflowerblue;
+  transform: rotateY(180deg);
+}

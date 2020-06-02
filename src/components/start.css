@@ -3,18 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+.start-component-container {
+  background-color: #100f18;
+  width: 100vw;
+  height: 92vh;
+}
 .startContainer {
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
 }
-.myName {
-  font-size: 40px;
-}
 .stefanos {
   font-size: 40px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tyipical {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .show-you {
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.verticalLine {
+  border-left: 3px solid #581adf;
+  height: 250%;
+  position: absolute;
+  left: -30px;
+  top: -68%;
+}
+.shadowText {
+  font-family: cursive;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .verticalLine {
+    height: 100%;
+    top: 0;
+  }
 }

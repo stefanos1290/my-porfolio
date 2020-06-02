@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-container {
+  background-color: #14121c;
+  width: 100vw;
+  height: 92vh;
+}
+.text-container {
+  border-left: 3px solid #581adf;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.firstComment {
+  color: #78707e;
+  font-size: 23px;
+}
+.secondComment {
+  color: #78707e;
+  font-size: 23px;
+}
+.startingDots {
+  color: #78707e;
+  font-size: 23px;
+}
+.constructor {
+  color: #581adf;
+  font-size: 23px;
+}
+.parenthesis {
+  color: white;
+  font-size: 23px;
+}
+.openBracket {
+  color: white;
+  font-size: 23px;
+}
+.constructorThis {
+  color: #e3234c;
+  font-size: 23px;
+}
+.dot {
+  color: white;
+  font-size: 23px;
+}
+.thisString {
+  color: #25c638;
+  font-size: 23px;
+}
+.thisNumber {
+  color: #e39d25;
+  font-size: 23px;
+}
+.email {
+  color: #25c638;
+  font-size: 23px;
+}
+.return {
+  color: #581adf;
+  font-size: 23px;
+}
+.openSquareBracket {
+  color: white;
+  font-size: 23px;
+}
+.closeSquareBracket {
+  color: white;
+  font-size: 23px;
+}
+.mySkills {
+  color: #25c638;
+  font-size: 23px;
+}
+.exprerience {
+  color: #eefe32;
+  font-size: 23px;
+}
+.exprerienceDate {
+  color: #25c638;
+  font-size: 23px;
+}
+.colon {
+  color: white;
+  font-size: 23px;
+}
+.expreriencePlace {
+  color: #25c638;
+  font-size: 23px;
+}
+.semicolon {
+  color: white;
+  font-size: 23px;
+}
+.closeBracket {
+  color: white;
+  font-size: 23px;
+}
+.myName {
+  color: #eefe32;
+  font-size: 23px;
+}
+.num {
+  color: #581adf;
+  position: absolute;
+  font-size: 23px;
+  left: -40px;
+}
+.classStart {
+  color: #581adf;
+  font-size: 23px;
+}
+.nameStartFunction {
+  color: #eefe32;
+  font-size: 23px;
+}
+.thisName {
+  color: #25d88e;
+  font-size: 23px;
+}
+.equal {
+  color: #e3234c;
+  font-size: 23px;
+}
+.thisBirthday {
+  color: #25d88e;
+  font-size: 23px;
+}
+.thisEmail {
+  color: #25d88e;
+  font-size: 23px;
+}
+.functionSkills {
+  color: #eefe32;
+  font-size: 23px;
+}
+.callFunction {
+  color: #eefe32;
+  font-size: 23px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .firstComment {
+    color: #78707e;
+    font-size: 16px;
+  }
+  .secondComment {
+    color: #78707e;
+    font-size: 16px;
+  }
+  .startingDots {
+    color: #78707e;
+    font-size: 16px;
+  }
+  .constructor {
+    color: #581adf;
+    font-size: 16px;
+  }
+  .parenthesis {
+    color: white;
+    font-size: 16px;
+  }
+  .openBracket {
+    color: white;
+    font-size: 16px;
+  }
+  .constructorThis {
+    color: #e3234c;
+    font-size: 16px;
+  }
+  .dot {
+    color: white;
+    font-size: 16px;
+  }
+  .thisString {
+    color: #25c638;
+    font-size: 16px;
+  }
+  .thisNumber {
+    color: #e39d25;
+    font-size: 16px;
+  }
+  .email {
+    color: #25c638;
+    font-size: 16px;
+  }
+  .return {
+    color: #581adf;
+    font-size: 16px;
+  }
+  .openSquareBracket {
+    color: white;
+    font-size: 16px;
+  }
+  .closeSquareBracket {
+    color: white;
+    font-size: 16px;
+  }
+  .mySkills {
+    color: #25c638;
+    font-size: 16px;
+  }
+  .exprerience {
+    color: #eefe32;
+    font-size: 16px;
+  }
+  .exprerienceDate {
+    color: #25c638;
+    font-size: 16px;
+  }
+  .colon {
+    color: white;
+    font-size: 16px;
+  }
+  .expreriencePlace {
+    font-size: 16px;
+  }
+  .semicolon {
+    font-size: 16px;
+  }
+  .closeBracket {
+    font-size: 16px;
+  }
+  .myName {
+    font-size: 16px;
+  }
+  .num {
+    font-size: 16px;
+  }
+  .classStart {
+    color: #581adf;
+    font-size: 16px;
+  }
+  .nameStartFunction {
+    color: #eefe32;
+    font-size: 16px;
+  }
+  .thisName {
+    color: #25d88e;
+    font-size: 16px;
+  }
+  .equal {
+    color: #e3234c;
+    font-size: 16px;
+  }
+  .thisBirthday {
+    color: #25d88e;
+    font-size: 16px;
+  }
+  .thisEmail {
+    color: #25d88e;
+    font-size: 16px;
+  }
+  .functionSkills {
+    color: #eefe32;
+    font-size: 16px;
+  }
+  .callFunction {
+    color: #eefe32;
+    font-size: 16px;
+  }
+  .text-container {
+    border-left: 3px solid #581adf;
+    padding: 10px;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+}

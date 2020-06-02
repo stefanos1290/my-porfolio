@@ -6,11 +6,16 @@ import "./start.css";
 
 const Start = () => {
   return (
-    <div>
+    <div className="start-component-container">
       <div className="startContainer">
-        {" "}
-        <h1 className="myName">Hi, my name is </h1> <br />{" "}
-        <h1 className="stefanos"> Stefanos Oxinos, i develop</h1>
+        <div className="verticalLine"></div>{" "}
+        <h1 style={{ fontSize: "40px", color: "white" }}>Hi, my name is </h1>{" "}
+        <br />{" "}
+        <h1 className="stefanos">
+          {" "}
+          <span style={{ color: "#581adf" }}>Stefanos Oxinos </span>, I{" "}
+          <span className="shadowText">develop</span>
+        </h1>
         <Typical
           className="tyipical"
           steps={[
@@ -29,7 +34,10 @@ const Start = () => {
           wrapper="h1"
         />
         <Zoom>
-          <h3 className="show-you" style={{ color: "gray", marginTop: "10px" }}>
+          <h3
+            className="show-you"
+            style={{ color: "#988e9f", marginTop: "10px" }}
+          >
             let me show you...
           </h3>
         </Zoom>
