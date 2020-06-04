@@ -57,14 +57,18 @@ const About = () => {
           <span className="secondComment">{secondComment}</span>
         </div>
         <div>
-          <span className="num">04</span>
+          <span id="num41055px" className="num">
+            04
+          </span>
           <span className="startingDots">{startingDots}</span>
           <span className="constructor">constructor</span>
           <span className="parenthesis"> {parenthesis}</span>
           <span className="openBracket"> {openBracket}</span>
         </div>
         <div>
-          <span className="num">05</span>
+          <span id="num51055px" className="num">
+            05
+          </span>
           <span className="startingDots">{startingDots}</span>
           <span className="startingDots">{startingDots}</span>
           <span className="constructorThis">{constructorThis}</span>
@@ -75,7 +79,9 @@ const About = () => {
           <span className="semicolon">;</span>
         </div>
         <div>
-          <span className="num">06</span>
+          <span id="num61055px" className="num">
+            06
+          </span>
           <span className="startingDots">{startingDots}</span>
           <span className="startingDots">{startingDots}</span>
           <span className="constructorThis">{constructorThis}</span>
@@ -86,7 +92,9 @@ const About = () => {
           <span className="semicolon">;</span>
         </div>
         <div>
-          <span className="num">07</span>
+          <span id="num71055px" className="num">
+            07
+          </span>
           <span className="startingDots">{startingDots}</span>
           <span className="startingDots">{startingDots}</span>
           <span className="constructorThis">{constructorThis}</span>
@@ -97,14 +105,18 @@ const About = () => {
           <span className="semicolon">;</span>
         </div>
         <div>
-          <span className="num">08</span>
+          <span id="num81055px" className="num">
+            08
+          </span>
           <span className="startingDots">{startingDots}</span>
           <span className="functionSkills">skills</span>
           <span className="parenthesis">{parenthesis}</span>
           <span className="openBracket"> {openBracket}</span>
         </div>
         <div>
-          <span className="num">09</span>
+          <span id="num91055px" className="num">
+            09
+          </span>
           <span className="startingDots">{startingDots}</span>
           <span className="startingDots">{startingDots}</span>
           <span className="return">return</span>
@@ -113,28 +125,41 @@ const About = () => {
             return <span className="mySkills">{x}, </span>;
           })}{" "}
           <br />
-          <span className="num">10</span>
+          <span id="num101403px" className="num">
+            10
+          </span>
           <span className="startingDots">{startingDots}</span>
           <span className="startingDots">{startingDots}</span>
           {mySkills2.map((x) => {
             return <span className="mySkills">{x}, </span>;
           })}
+          <span className="num1475px">11</span>
+          <span className="startingDots1475px">{startingDots}</span>
           <span className="closeSquareBracket">{closeSquareBracket}</span>
         </div>
         <div>
-          <span className="num">11</span>
+          <span id="first11" className="num">
+            11
+          </span>
+          <span className="num121475px">12</span>
           <span className="startingDots">{startingDots}</span>
           <span className="closeBracket">{closeBracket}</span>
         </div>
         <div>
-          <span className="num">12</span>
+          <span id="first12" className="num">
+            12
+          </span>
+          <span className="num131475px">13</span>
           <span className="startingDots">{startingDots}</span>
           <span className="exprerience">exprerience</span>
           <span className="parenthesis">{parenthesis}</span>
           <span className="openBracket"> {openBracket}</span>
         </div>
         <div>
-          <span className="num">13</span>
+          <span id="first13" className="num">
+            13
+          </span>
+          <span className="num141475px">14</span>
           <span className="startingDots">{startingDots}</span>
           <span className="startingDots">{startingDots}</span>
           <span className="return">return</span>
@@ -148,17 +173,30 @@ const About = () => {
           <span className="semicolon">;</span>
         </div>
         <div>
-          <span className="num">14</span>
+          <span id="first14" className="num">
+            14
+          </span>
+          <span className="num151475px">15</span>
           <span className="startingDots">{startingDots}</span>
           <span className="startingDots">{startingDots}</span>
           <span className="closeBracket">{closeBracket}</span>
         </div>
         <div>
-          <span className="num">15</span>
+          <span id="first15" className="num">
+            15
+          </span>
+          <span className="num161475px">16</span>
+          <span className="startingDots1403">{startingDots}</span>
           <span className="closeBracket">{closeBracket}</span>
         </div>
         <div>
-          <span className="num">16</span>
+          <span id="first16" className="num">
+            16
+          </span>
+          <span className="num171475px">17</span>
+          <span className="num181403px">18</span>
+          <span className="num191403px">19</span>
+          <span className="num201055px">20</span>
           <span className="callFunction">{myName}</span>
           <span className="parenthesis">{parenthesis}</span>
           <span className="semicolon">;</span>
