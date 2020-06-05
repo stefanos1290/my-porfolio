@@ -52,7 +52,9 @@ const About = () => {
           <span className="firstComment">{firstComment}</span>
         </div>
         <div>
-          <span className="num">03</span>
+          <span id="num3931px" className="num">
+            03
+          </span>
           <span className="startingDots">{startingDots}</span>
           <span className="secondComment">{secondComment}</span>
         </div>
@@ -135,6 +137,8 @@ const About = () => {
           })}
           <span className="num1475px">11</span>
           <span className="startingDots1475px">{startingDots}</span>
+          <span className="startingDots825px">{startingDots}</span>
+          <span className="startingDots825px">{startingDots}</span>
           <span className="closeSquareBracket">{closeSquareBracket}</span>
         </div>
         <div>
@@ -197,6 +201,11 @@ const About = () => {
           <span className="num181403px">18</span>
           <span className="num191403px">19</span>
           <span className="num201055px">20</span>
+          <span className="num21931px">21</span>
+          <span className="num22930px">22</span>
+          <span className="num23896px">23</span>
+          <span className="num24825px">24</span>
+          <span className="num25727px">25</span>
           <span className="callFunction">{myName}</span>
           <span className="parenthesis">{parenthesis}</span>
           <span className="semicolon">;</span>
