@@ -206,6 +206,8 @@ const About = () => {
           <span className="num23896px">23</span>
           <span className="num24825px">24</span>
           <span className="num25727px">25</span>
+          <span className="num26720px">26</span>
+          <span className="num27672px">27</span>
           <span className="callFunction">{myName}</span>
           <span className="parenthesis">{parenthesis}</span>
           <span className="semicolon">;</span>
