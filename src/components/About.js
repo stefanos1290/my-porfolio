@@ -38,54 +38,54 @@ const About = () => {
   return (
     <div className="about-container">
       <div className="text-container">
-        <div className="moblieResposiveNumbers">
-          <span className="moblieResposiveNum">01</span>
-          <span className="moblieResposiveNum">02</span>
-          <span className="moblieResposiveNum">03</span>
-          <span className="moblieResposiveNum">04</span>
-          <span className="moblieResposiveNum">05</span>
-          <span className="moblieResposiveNum">06</span>
-          <span className="moblieResposiveNum">07</span>
-          <span className="moblieResposiveNum">08</span>
-          <span className="moblieResposiveNum">09</span>
-          <span className="moblieResposiveNum">10</span>
-          <span className="moblieResposiveNum">11</span>
-          <span className="moblieResposiveNum">12</span>
-          <span className="moblieResposiveNum">13</span>
-          <span className="moblieResposiveNum">14</span>
-          <span className="moblieResposiveNum">15</span>
-          <span className="moblieResposiveNum">16</span>
-          <span className="moblieResposiveNum" id="n17">
+        <div className="numbersContainer">
+          <span className="numbers">01</span>
+          <span className="numbers">02</span>
+          <span className="numbers">03</span>
+          <span className="numbers">04</span>
+          <span className="numbers">05</span>
+          <span className="numbers">06</span>
+          <span className="numbers">07</span>
+          <span className="numbers">08</span>
+          <span className="numbers">09</span>
+          <span className="numbers">10</span>
+          <span className="numbers">11</span>
+          <span className="numbers">12</span>
+          <span className="numbers">13</span>
+          <span className="numbers">14</span>
+          <span className="numbers">15</span>
+          <span className="numbers">16</span>
+          <span className="numbers" id="n17">
             17
           </span>
-          <span className="moblieResposiveNum" id="n18">
+          <span className="numbers" id="n18">
             18
           </span>
-          <span className="moblieResposiveNum" id="n19">
+          <span className="numbers" id="n19">
             19
           </span>
-          <span className="moblieResposiveNum" id="n20">
+          <span className="numbers" id="n20">
             20
           </span>
-          <span className="moblieResposiveNum" id="n21">
+          <span className="numbers" id="n21">
             21
           </span>
-          <span className="moblieResposiveNum" id="n22">
+          <span className="numbers" id="n22">
             22
           </span>
-          <span className="moblieResposiveNum" id="n23">
+          <span className="numbers" id="n23">
             23
           </span>
-          <span className="moblieResposiveNum" id="n24">
+          <span className="numbers" id="n24">
             24
           </span>
-          <span className="moblieResposiveNum" id="n25">
+          <span className="numbers" id="n25">
             25
           </span>
-          <span className="moblieResposiveNum" id="n26">
+          <span className="numbers" id="n26">
             26
           </span>
-          <span className="moblieResposiveNum" id="n27">
+          <span className="numbers" id="n27">
             27
           </span>
         </div>

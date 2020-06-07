@@ -65,3 +65,28 @@
   text-decoration: none;
   color: white;
 }
+@media only screen and (min-width: 1920px) {
+  .findMe {
+    font-size: 100px;
+  }
+  .github-url {
+    font-size: 50px;
+  }
+  .github-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .linkedin-url {
+    font-size: 50px;
+  }
+  .mail-url {
+    font-size: 50px;
+  }
+  .mailtoButton {
+    width: 200px;
+    height: 100px;
+  }
+  .mailto {
+    font-size: 30px;
+  }
+}
