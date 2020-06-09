@@ -113,7 +113,19 @@
   color: white;
   text-decoration: none;
 }
-@media (max-width: 961px) {
+.resposiveTetrisLine {
+  display: none;
+}
+.resposiveSNetworkLine {
+  display: none;
+}
+.resposiveImageBoard {
+  display: none;
+}
+.descriptionResContainer {
+  display: none;
+}
+@media (max-width: 1008px) {
   .work-container {
     background-color: #100f18;
     display: flex;
@@ -145,15 +157,27 @@
     flex-direction: column;
   }
   .tetris-line {
-    background-color: #581adf;
-    height: 2px;
-    border: none;
-    width: 33%;
-    left: 618px;
-    position: relative;
-    top: -300px;
     display: none;
   }
+  .resposiveTetrisLine {
+    width: 10px;
+    height: 90px;
+    border-left: 2px solid #581adf;
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translate(2870%, -219%);
+    z-index: 20;
+    display: flex;
+  }
+  .mainContainer2 {
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translate(-274%, 151%);
+    z-index: 4;
+  }
+
   .playTetrisButtom {
     top: -42px;
     left: -220px;
@@ -174,18 +198,70 @@
     margin: 0;
     align-self: center;
     margin-bottom: 50px;
+    position: relative;
+    top: 75px;
   }
   .social-network {
     border: 1px solid #581adf;
     width: 600px;
   }
   .social-network-line {
-    border-left: 2px solid #581adf;
-    position: relative;
-    top: -12px;
-    height: 100%;
-    right: -70%;
     display: none;
+  }
+  .resposiveSNetworkLine {
+    width: 10px;
+    height: 90px;
+    border-left: 2px solid #581adf;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, 168%);
+    z-index: 20;
+    display: flex;
+  }
+  .mainContainer {
+    transform: translate(-324px, 315px);
+    display: none;
+  }
+  .descriptionResContainer {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    top: 97px;
+    right: 10px;
+    display: flex;
+  }
+  .theCardResSN {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+  }
+  .theCardResSN:hover {
+    transform: rotateY(180deg);
+  }
+  .theFrontResSN {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #100f18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #581adf;
+    border: 1px solid #581adf;
+  }
+  .theBackResSN {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: cornflowerblue;
+    transform: rotateY(180deg);
+    color: white;
   }
   .View-Social-Network-Button {
     position: absolute;
@@ -209,6 +285,7 @@
     flex-direction: column;
     position: relative;
     margin: 0;
+    top: 220px;
   }
   .image-board-line {
     border-left: 2px solid #581adf;
@@ -218,11 +295,59 @@
     bottom: 190%;
     display: none;
   }
+  .resMainContainerIB {
+    position: relative;
+    width: 250px;
+    height: 165px;
+    top: 293px;
+    margin-bottom: 80px;
+  }
+  .resCardIB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease;
+  }
+  .resCardIB:hover {
+    transform: rotateY(180deg);
+  }
+  .resFrontIB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #100f18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #581adf;
+    border: 1px solid #581adf;
+  }
+  .resBackIB {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: cornflowerblue;
+    transform: rotateY(180deg);
+  }
   .image-board {
     border: 1px solid #581adf;
     width: 600px;
     border-left: 2px solid #581adf;
     position: relative;
+  }
+  .resposiveImageBoardLine {
+    border-left: 2px solid #581adf;
+    width: 10px;
+    height: 90px;
+    position: absolute;
+    top: 390px;
+  }
+  .mainContainer1 {
+    display: none;
   }
   .View-image-board-Button {
     position: absolute;
@@ -327,7 +452,7 @@
 .theFront {
   position: absolute;
   width: 100%;
-  height: 30%;
+  height: 100%;
   backface-visibility: hidden;
   background: #100f18;
   display: flex;
@@ -335,6 +460,7 @@
   justify-content: center;
   font-size: 24px;
   color: #581adf;
+  border: 1px solid #581adf;
 }
 .theBack {
   position: absolute;
@@ -365,13 +491,14 @@
 .theFront1 {
   position: absolute;
   width: 100%;
-  height: 30%;
+  height: 100%;
   backface-visibility: hidden;
   background: #100f18;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 24px;
+  border: 1px solid #581adf;
   color: #581adf;
 }
 .theBack1 {

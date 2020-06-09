@@ -186,61 +186,6 @@
     display: none;
   }
 }
-.num25727px {
-  display: none;
-}
-
-@media (max-width: 672px) {
-  .num131475px {
-    bottom: 388px;
-  }
-  .num141475px {
-    bottom: 361px;
-  }
-  .num151475px {
-    bottom: 335px;
-  }
-  .num161475px {
-    bottom: 308px;
-  }
-  .num171475px {
-    bottom: 281px;
-  }
-  .num181403px {
-    bottom: 253px;
-  }
-  .num191403px {
-    bottom: 228px;
-  }
-  .num201055px {
-    bottom: 200px;
-  }
-  .num21931px {
-    bottom: 174px;
-  }
-  .num22930px {
-    bottom: 146px;
-  }
-  .num23896px {
-    bottom: 119px;
-  }
-  .num24825px {
-    bottom: 91px;
-  }
-  .num25727px {
-    bottom: 65px;
-  }
-  .num26720px {
-    bottom: 36px;
-  }
-  .num27672px {
-    display: inline-block;
-    color: #581adf;
-    position: absolute;
-    font-size: 23px;
-    left: -40px;
-  }
-}
 
 @media only screen and (min-width: 320px) {
   .firstComment {

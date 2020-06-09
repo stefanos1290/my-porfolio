@@ -53,6 +53,7 @@ const Work = () => {
             <div className="theBack2">write description for tetris</div>
           </div>
         </div>
+        <div className="resposiveTetrisLine"></div>
       </div>
       <div className="social-network-container">
         <video
@@ -89,6 +90,13 @@ const Work = () => {
             <div className="theBack">write description for social network</div>
           </div>
         </div>
+        <div className="resposiveSNetworkLine"></div>
+      </div>
+      <div className="descriptionResContainer">
+        <div className="theCardResSN">
+          <div className="theFrontResSN">Social Network</div>
+          <div className="theBackResSN">fuuuuuck</div>
+        </div>
       </div>
       <div className="image-board-container">
         <video
@@ -115,12 +123,19 @@ const Work = () => {
           </a>
           <div className="number3">03</div>
         </Button>
+        <div className="resposiveImageBoardLine"></div>
         <div className="image-board-line"></div>
         <div className="mainContainer1">
           <div className="theCard1">
             <div className="theFront1">Image Board</div>
             <div className="theBack1">write description for image board</div>
           </div>
+        </div>
+      </div>
+      <div className="resMainContainerIB">
+        <div className="resCardIB">
+          <div className="resFrontIB">Image Board</div>
+          <div className="resBackIB">write description for image board</div>
         </div>
       </div>
     </div>
