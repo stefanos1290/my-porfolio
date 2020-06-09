@@ -179,7 +179,7 @@
   }
 
   .playTetrisButtom {
-    top: -42px;
+    top: -2px;
     left: -220px;
     z-index: 32;
     position: absolute;
@@ -187,7 +187,7 @@
   .viewTetrisButton {
     z-index: 32;
     position: absolute;
-    top: -78px;
+    top: -38px;
     left: 220px;
   }
   .social-network-container {
@@ -352,7 +352,7 @@
   .View-image-board-Button {
     position: absolute;
     top: -43px;
-    right: -235px;
+    right: -35px;
     z-index: 38;
   }
   .number3 {
@@ -375,17 +375,25 @@
     width: 94%;
   }
   .playTetrisButtom {
-    top: -42px;
-    left: -80px;
+    top: -2px;
+    left: -148px;
     z-index: 32;
     position: absolute;
   }
   .viewTetrisButton {
     z-index: 32;
     position: absolute;
-    top: -78px;
-    left: 80px;
+    top: -38px;
+    left: 148px;
   }
+
+  .resposiveTetrisLine {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-220px, -198px);
+  }
+
   .social-network-container {
     display: flex;
     flex-direction: column;
@@ -407,6 +415,19 @@
     left: 80px;
     z-index: 4;
   }
+  .resposiveSNetworkLine {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-220px, -205px);
+  }
+  .descriptionResContainer {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-95%, -6%);
+  }
+
   .image-board-container {
     height: 407px;
     width: 602px;
