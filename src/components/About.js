@@ -194,7 +194,7 @@ const About = () => {
           <span className="closeBracket">{closeBracket}</span>
         </div>
         <div>
-          <span className="startingDots1403">{startingDots}</span>
+          <span className="startingDots">{startingDots}</span>
           <span className="closeBracket">{closeBracket}</span>
         </div>
         <div>

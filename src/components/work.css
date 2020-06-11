@@ -259,9 +259,14 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background: cornflowerblue;
+    background: #100f18;
+    border: 1px solid #581adf;
+    color: #581adf;
     transform: rotateY(180deg);
-    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .View-Social-Network-Button {
     position: absolute;
@@ -298,7 +303,7 @@
   .resMainContainerIB {
     position: relative;
     width: 250px;
-    height: 165px;
+    height: 200px;
     top: 293px;
     margin-bottom: 80px;
   }
@@ -308,6 +313,7 @@
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.7s ease;
+    background-color: #100f18;
   }
   .resCardIB:hover {
     transform: rotateY(180deg);
@@ -330,8 +336,14 @@
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background: cornflowerblue;
+    background: #100f18;
+    border: 1px solid #581adf;
+    color: #581adf;
     transform: rotateY(180deg);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .image-board {
     border: 1px solid #581adf;
@@ -375,16 +387,10 @@
     width: 94%;
   }
   .playTetrisButtom {
-    top: -2px;
-    left: -148px;
-    z-index: 32;
-    position: absolute;
+    left: -29%;
   }
   .viewTetrisButton {
-    z-index: 32;
-    position: absolute;
-    top: -38px;
-    left: 148px;
+    left: 28%;
   }
 
   .resposiveTetrisLine {
@@ -393,7 +399,10 @@
     left: 50%;
     transform: translate(-220px, -198px);
   }
-
+  .mainContainer2 {
+    transform: translate(-274%, 120%);
+    z-index: 78;
+  }
   .social-network-container {
     display: flex;
     flex-direction: column;
@@ -403,6 +412,7 @@
     align-self: center;
     margin-bottom: 50px;
     width: 94%;
+    top: -17px;
   }
   .social-network {
     border: 1px solid #581adf;
@@ -411,9 +421,7 @@
   }
   .View-Social-Network-Button {
     position: absolute;
-    top: -58px;
-    left: 80px;
-    z-index: 4;
+    left: 28%;
   }
   .resposiveSNetworkLine {
     position: relative;
@@ -425,7 +433,8 @@
     position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-95%, -6%);
+    transform: translate(-95%, -60%);
+    z-index: 987;
   }
 
   .image-board-container {
@@ -438,6 +447,7 @@
     position: relative;
     margin: 0;
     width: 94%;
+    top: -73px;
   }
   .image-board {
     border: 1px solid #581adf;
@@ -448,9 +458,20 @@
   }
   .View-image-board-Button {
     position: absolute;
-    top: -48px;
-    left: 80px;
+    left: 28%;
     z-index: 38;
+  }
+  .resposiveImageBoardLine {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-220px, -239px);
+  }
+  .resMainContainerIB {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-220px, -144px);
   }
 }
 .mainContainer {
@@ -488,8 +509,14 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: cornflowerblue;
+  background: #100f18;
+  border: 1px solid #581adf;
+  color: #581adf;
   transform: rotateY(180deg);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainContainer1 {
@@ -527,8 +554,14 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: cornflowerblue;
+  background: #100f18;
+  border: 1px solid #581adf;
+  color: #581adf;
   transform: rotateY(180deg);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .mainContainer2 {
@@ -566,6 +599,12 @@
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background: cornflowerblue;
+  background: #100f18;
+  border: 1px solid #581adf;
+  color: #581adf;
   transform: rotateY(180deg);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

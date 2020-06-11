@@ -63,7 +63,7 @@ const Header = () => {
             <MenuItem onClick={handleClose}>
               {" "}
               <Link className="menuitem" to="/contact">
-                CONTACTR
+                CONTACT
               </Link>
             </MenuItem>
           </Menu>
