@@ -330,62 +330,193 @@
   }
 }
 @media only screen and (min-width: 536px) {
+  .numbers {
+    font-size: 23px;
+  }
+  .callFunction {
+    font-size: 23px;
+  }
+  .parenthesis {
+    font-size: 23px;
+  }
+  .semicolon {
+    font-size: 23px;
+  }
+  .startingDots {
+    font-size: 23px;
+  }
+  .closeBracket {
+    font-size: 23px;
+  }
+  .closeSquareBracket {
+    font-size: 23px;
+  }
+  .openBracket {
+    font-size: 23px;
+  }
+  .openSquareBracket {
+    font-size: 23px;
+  }
+  .return {
+    font-size: 23px;
+  }
+  .exprerience {
+    font-size: 23px;
+  }
+  .mySkills {
+    font-size: 23px;
+  }
+  .expreriencePlace {
+    font-size: 23px;
+  }
+  .colon {
+    font-size: 23px;
+  }
+  .exprerienceDate {
+    font-size: 23px;
+  }
+  .functionSkills {
+    font-size: 23px;
+  }
+  .email {
+    font-size: 23px;
+  }
+  .equal {
+    font-size: 23px;
+  }
+  .thisEmail {
+    font-size: 23px;
+  }
+  .dot {
+    font-size: 23px;
+  }
+  .constructorThis {
+    font-size: 23px;
+  }
+  .thisNumber {
+    font-size: 23px;
+  }
+  .thisBirthday {
+    font-size: 23px;
+  }
+  .thisString {
+    font-size: 23px;
+  }
+  .thisName {
+    font-size: 23px;
+  }
+  .constructor {
+    font-size: 23px;
+  }
+  .secondComment {
+    font-size: 23px;
+  }
+  .firstComment {
+    font-size: 23px;
+  }
+  .nameStartFunction {
+    font-size: 23px;
+  }
+  .classStart {
+    font-size: 23px;
+  }
+  .text-container {
+    border-left: 3px solid #581adf;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+  .about-container {
+    height: 178vh;
+  }
+  .numbersContainer {
+    left: -40px;
+  }
+}
+@media only screen and (min-width: 660px) {
   #n27 {
     display: none;
   }
 }
-@media only screen and (min-width: 573px) {
+@media only screen and (min-width: 721px) {
   #n26 {
     display: none;
   }
 }
-@media only screen and (min-width: 578px) {
+@media only screen and (min-width: 728px) {
   #n25 {
     display: none;
   }
 }
-@media only screen and (min-width: 654px) {
+@media only screen and (min-width: 826px) {
   #n24 {
     display: none;
   }
 }
-@media only screen and (min-width: 709px) {
+@media only screen and (min-width: 897px) {
   #n23 {
     display: none;
   }
 }
-@media only screen and (min-width: 735px) {
+@media only screen and (min-width: 897px) {
+  #n23 {
+    display: none;
+  }
+}
+@media only screen and (min-width: 931px) {
   #n22 {
     display: none;
   }
 }
-@media only screen and (min-width: 736px) {
+@media only screen and (min-width: 932px) {
   #n21 {
     display: none;
   }
 }
-@media only screen and (min-width: 832px) {
+@media only screen and (min-width: 1056px) {
   #n20 {
     display: none;
   }
 }
-@media only screen and (min-width: 899px) {
+@media only screen and (min-width: 1130px) {
   #n19 {
     display: none;
   }
 }
-@media only screen and (min-width: 1101px) {
+@media only screen and (min-width: 1404px) {
   #n18 {
     display: none;
   }
 }
-@media only screen and (min-width: 1156px) {
+@media only screen and (min-width: 1476px) {
   #n17 {
     display: none;
   }
 }
-@media only screen and (min-width: 800px) {
-  .startingDots825px {
-    display: none;
+@media only screen and (min-width: 937px) {
+  .text-container {
+    transform: translate(-50%, -25%);
+  }
+}
+@media only screen and (min-width: 964px) {
+  .text-container {
+    transform: translate(-50%, -40%);
+  }
+}
+@media only screen and (min-width: 966px) {
+  .text-container {
+    transform: translate(-50%, -33%);
+  }
+}
+@media only screen and (min-width: 1066px) {
+  .text-container {
+    transform: translate(-50%, -39%);
+  }
+}
+@media only screen and (min-width: 1182px) {
+  .text-container {
+    transform: translate(-50%, -46%);
   }
 }

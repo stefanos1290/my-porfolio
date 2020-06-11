@@ -178,9 +178,9 @@ const About = () => {
         <div>
           <span className="startingDots">{startingDots}</span>
           <span className="startingDots">{startingDots}</span>
-          <span className="return">return</span>
-          <span className="openSquareBracket"> {openSquareBracket}</span>
-          <span className="openBracket"> {openBracket}</span>
+          <span className="return">return </span>
+          <span className="openSquareBracket">{openSquareBracket}</span>
+          <span className="openBracket">{openBracket}</span>
           <span className="exprerienceDate">{exprerienceDate}</span>
           <span className="colon"> : </span>
           <span className="expreriencePlace">{expreriencePlace}</span>
