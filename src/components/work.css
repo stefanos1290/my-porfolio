@@ -303,7 +303,7 @@
   .resMainContainerIB {
     position: relative;
     width: 250px;
-    height: 200px;
+    height: 220px;
     top: 293px;
     margin-bottom: 80px;
   }
@@ -313,7 +313,6 @@
     height: 100%;
     transform-style: preserve-3d;
     transition: all 0.7s ease;
-    background-color: #100f18;
   }
   .resCardIB:hover {
     transform: rotateY(180deg);
@@ -522,8 +521,8 @@
 .mainContainer1 {
   position: relative;
   width: 250px;
-  height: 200px;
-  top: -1077px;
+  height: 220px;
+  top: -1085px;
   right: 1%;
 }
 .theCard1 {

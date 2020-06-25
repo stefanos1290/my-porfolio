@@ -95,8 +95,8 @@ const Work = () => {
               The users can register / login. - Upload profile picture. - Add
               their bio in profile page. - Search for other users. - Send /
               Accept / Cancel Friend Request. - See the people who sent them
-              fried request and their current friends. - Chat Room. - See Online
-              Users.{" "}
+              friend request and their current friends. - Chat Room. - See
+              Online Users.{" "}
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@ const Work = () => {
           <div className="theBackResSN">
             The users can register / login. - Upload profile picture. - Add
             their bio in profile page. - Search for other users. - Send / Accept
-            / Cancel Friend Request. - See the people who sent them fried
+            / Cancel Friend Request. - See the people who sent them friend
             request and their current friends. - Chat Room. - See Online Users.{" "}
           </div>
         </div>
